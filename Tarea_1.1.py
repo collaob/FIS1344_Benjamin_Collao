@@ -1,4 +1,4 @@
-#Tarea 1 Benjamín Collao
+#Tarea 1.1 Benjamín Collao
 d = 2 #definimos variables
 t = 0.3
 a = 9.81
