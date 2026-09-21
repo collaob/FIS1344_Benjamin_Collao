@@ -20,7 +20,7 @@ def kappa(x):
 
 #condicionamiento
 print("condicionamiento de f [-1,1]")
-for x in [-1, 0.5, 0, 0.5, 1]:
+for x in [-1, -0.5, 0, 0.5, 1]:
   print("kappa(%.1f) = %.5f" % (x, kappa(x)))
 #se ve que kappa va en aumento y el maximo queda en x=1
 print("maximo (aprox en x=1):", kappa(1), "\n")
@@ -37,4 +37,4 @@ for e in range(2, 9):
 #kappa(1) ~ 0.58 < 1, entonces el condicionamiento está bien, el problema es que el algoritmo obvio tiene un error, 
 #cuando x es pequeño e**x queda muy cercano a 1 y al calcular e**x - 1 se cancelan casi todos los digitos importantes, quedando solo el error de redondeo de punto flotante.
 #La serie de Taylor no hace esta resta, por lo tanto, no pierde precisión, por eso mismo el error crece mucho menos cuando x es cada vez más chico.
-#En resumen, taylor es más preciso para x ~ 0, debido a que el algoritmo obvio es numéricamtne inestable.
+#En resumen, taylor es más preciso para x ~ 0, debido a que el algoritmo obvio es numéricamente inestable.
