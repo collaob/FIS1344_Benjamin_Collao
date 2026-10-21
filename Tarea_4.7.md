@@ -74,3 +74,7 @@ Obs: con la uniforme el ajuste a la gaussiana ya se ve bien desde ℓ=1, mucho a
 ## Conclusión
 
 El promedio de δT² sobre m es una suma de N=2ℓ+1 variables aleatorias. Para ℓ chico hay pocos términos, y como δT² sigue una distribución χ² (asimétrica), el promedio todavía conserva esa asimetría y no conviene modelarlo como gaussiano. La asimetría del promedio cae como γ₁/√N; usando la asimetría real de la χ²(1), √8/√N, se vuelve chica recién alrededor de N≈60, es decir ℓ≈30, lo que justifica el corte en ℓ>30.
+
+Nota: 7.0
+Base: 1/1; funcionamiento: 4/4; comentarios: 1/1; claridad: 1/1.
+
