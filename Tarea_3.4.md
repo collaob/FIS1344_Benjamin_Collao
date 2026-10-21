@@ -33,3 +33,7 @@ P(E|M) = 0.036 / 0.084 = 3/7 ≈ 0.4286
 ## Por lo tanto:
 
 La probabilidad de que una persona con manchas haya tenido la enfermedad es 3/7 ≈ 0.43.
+
+Nota: 7.0
+Base: 1/1; funcionamiento: 4/4; comentarios: 1/1; claridad: 1/1.
+La aplicación de Bayes y de la probabilidad total es correcta y cada paso está claramente explicado.
