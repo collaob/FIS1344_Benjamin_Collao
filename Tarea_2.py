@@ -38,3 +38,7 @@ for e in range(2, 9):
 #cuando x es pequeño e**x queda muy cercano a 1 y al calcular e**x - 1 se cancelan casi todos los digitos importantes, quedando solo el error de redondeo de punto flotante.
 #La serie de Taylor no hace esta resta, por lo tanto, no pierde precisión, por eso mismo el error crece mucho menos cuando x es cada vez más chico.
 #En resumen, taylor es más preciso para x ~ 0, debido a que el algoritmo obvio es numéricamente inestable.
+
+# Nota: 6.0
+# Base: 1/1; funcionamiento: 4/4; comentarios: 0/1; claridad: 1/1.
+# Faltan comentarios que expliquen las operaciones de la función kappa y su tratamiento del caso x igual a cero.
