@@ -6,3 +6,6 @@ def velocidad_inicial(d, t, a):
     v0 = (d - 0.5 * a * t**2) / t #definimos la funcion que calcula la velocidad inicial
     return v0 #responde el valor
 print("La velocidad inicial es:", velocidad_inicial(d, t, a)) #imprimimos el resultado de la funcion
+
+# Nota: 7.0
+# Base: 1/1; funcionamiento: 4/4; comentarios: 1/1; claridad: 1/1.
